@@ -42,5 +42,11 @@ def test_subtract_two_numbers():
     assert result == 2
 
 # TODO: requirement: multiply two numbers
+def test_mul_two_numbers():
+    calculator = SimpleCalculator()
+
+    result = calculator.multiply(6, 4)
+
+    assert result == 24
 
 # TODO: requirement: multiply many numbers
